@@ -1,0 +1,71 @@
+1-Version
+git --version 
+2-- git help
+
+3--Initialize our git repository
+git init
+4-- we wanna know the current status
+git status
+5-- Add untracked file to Git branch (master or main)
+git add index.html
+6--Delete from controlling branch particular file
+git rm --cashed index.html
+7-- Add all file in repository
+git add .
+8--Commit our changes (Comments about changes), -m=-message
+git commit -m "message"
+9--creating .gitignore in VS or in different IDE
+When we want to add some file to git 
+repository we just add their names or paths to .gitignore file
+git commit -m "added gitignore file"
+10--In order to know where we are (what kinda branch is it)
+git branch
+* master or main, test
+11--Creating new branch for (separation development processes) work
+git btanch test
+12-- now here 2 branches
+* master  (active)
+test
+
+13--DELETING branches
+git branch -D test
+
+14--Switch to branch 'readme'
+git checkout readme
+vise versa
+git checkout master
+15-- If I want create new branch then Switch to this new branch
+git checkout -b newbranch
+
+16--Merging two different branches (we in 'master') want merge master with 
+readme
+(merge + readme)
+git merge readme
+17--Connect our GitHub repository with our repository
+git config --global user.name
+
+18--Change user.name  (-u  upstream)
+git config --global user.name "Vladilen"
+or git config --global.email "tima90zhuk@gmail.com"
+
+
+19-- Git commands
+git init 
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<name>/<name_repository>.git
+git push -u origin main
+
+git clone https://github.com/<name>/<name_repository>.git
+
+20 To collect all changes that have been made from server
+git pull
+
+
+
+
+
+
+
+

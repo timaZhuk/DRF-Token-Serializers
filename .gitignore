@@ -1,0 +1,3 @@
+venv/
+server/db.sqlite3
+todo_drf/db.sqlite3
